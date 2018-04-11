@@ -8,7 +8,7 @@ pid=$!
 sleep 1
 
 #GOGC=off go run binarytrees.go 21
-GOGC=off a.out 14
+GOGC=off ./a.out 14
 
 kill $pid
 echo "\n ThEnd"

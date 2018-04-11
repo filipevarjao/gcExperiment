@@ -8,7 +8,7 @@ pid=$!
 sleep 1
 
 #GOGC=off go run binarytrees.go 21
-a.out 7
+./a.out 7
 
 kill $pid
 echo "\n ThEnd"

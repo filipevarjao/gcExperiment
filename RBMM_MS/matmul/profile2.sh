@@ -10,7 +10,7 @@ sleep 1
 
 #GOGC=off go run matmul_v1.go 5000
 
-a.out 1000
+./a.out 1000
 kill $pid
 
 echo "\n ThEnd"
